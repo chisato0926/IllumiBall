@@ -5,6 +5,7 @@ using UnityEngine;
 public class GravityController : MonoBehaviour
 {
     const float Gravity = 9.81f;
+    [SerializeField]
     public float gravityScale = 1.0f;
     // Start is called before the first frame update
     void Start()
